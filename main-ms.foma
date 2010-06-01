@@ -58,3 +58,8 @@ read regex secondarynet .o. HyphenRulesBiasa ;
 define ternarynet
 
 read regex ternarynet .o. Morphrules ;
+
+save stack ../xfst-ms.bin
+
+exit
+
