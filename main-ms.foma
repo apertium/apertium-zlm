@@ -1,4 +1,4 @@
-read lexc < morphotactic-lexc-ms.txt
+read lexc < apertium-id-ms.ms.lexc
 
 eliminate flag STEM
 
