@@ -24,7 +24,7 @@ eliminate flag KeAn
 
 define initialnet
 
-source MorphophonemicRules9-1.xfst
+source apertium-id-ms.morpho.xfst
 
 read regex initialnet .o. Morphrules ;
 
