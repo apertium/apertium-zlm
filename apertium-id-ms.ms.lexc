@@ -14,6 +14,7 @@ Multichar_Symbols
          %<actio%>
          %<actor%>
          %<adj%>
+         %<adv%>
          %<appl%>
          %<actv%>
          %<bare%>
@@ -534,6 +535,7 @@ LEXICON CheckParticle
 
 LEXICON Adjective
 aad@P.POS.adj@        InflectionOption ;
+ada@P.POS.adj@             InflectionOption ;
 adangan@P.POS.adj@        InflectionOption ;
 adil@P.POS.adj@        InflectionOption ;
 aduhai@P.POS.adj@        InflectionOption ;
@@ -597,6 +599,7 @@ buktinya@P.POS.adj@        InflectionOption ;
 bungkus@P.POS.adj@        InflectionOption ;
 buruk@P.POS.adj@        InflectionOption ;
 butiran@P.POS.adj@        InflectionOption ;
+cantik@P.POS.adj@        InflectionOption ;
 cecair@P.POS.adj@        InflectionOption ;
 cermat@P.POS.adj@        InflectionOption ;
 cukup@P.POS.adj@        InflectionOption ;
@@ -975,17 +978,21 @@ perlembagaan@P.POS.adv@        InflectionOption ;
 perlu@P.POS.adv@        InflectionOption ;
 potongkan@P.POS.adv@        InflectionOption ;
 relief@P.POS.adv@        InflectionOption ;
+sangat@P.POS.adv@        InflectionOption ;
 sahajalah@P.POS.adv@        InflectionOption ;
 sebati@P.POS.adv@        InflectionOption ;
+sedang@P.POS.adv@        InflectionOption ;
 sedarkan@P.POS.adv@        InflectionOption ;
 sedarlah@P.POS.adv@        InflectionOption ;
 sekalian@P.POS.adv@        InflectionOption ;
 sekejap@P.POS.adv@        InflectionOption ;
 sekurangnya@P.POS.adv@        InflectionOption ;
+selalu@P.POS.adv@        InflectionOption ;
 selalunya@P.POS.adv@        InflectionOption ;
 seolah@P.POS.adv@        InflectionOption ;
 sup@P.POS.adv@        InflectionOption ;
 tiba@P.POS.adv@        InflectionOption ;
+tidak@P.POS.adv@        InflectionOption ;
 zahirnya@P.POS.adv@        InflectionOption ;
 
 LEXICON Coordinating
@@ -994,6 +1001,7 @@ dan@P.POS.cnjcoo@          InflectionOption ;
 
 LEXICON Determiner
 lantas@P.POS.det@             InflectionOption ;
+ini@P.POS.det@             InflectionOption ;
 
 LEXICON Interjection
 berapa@P.POS.interjection@              InflectionOption ;
@@ -1001,6 +1009,7 @@ jijik@P.POS.interjection@              InflectionOption ;
 
 LEXICON Modal
 mengerling@P.POS.mod@        InflectionOption ;
+bisa@P.POS.mod@        InflectionOption ;
 
 LEXICON Noun
 aad@P.POS.n@             InflectionOption ;
@@ -1008,7 +1017,6 @@ aazar@P.POS.n@             InflectionOption ;
 abu@P.POS.n@             InflectionOption ;
 action@P.POS.n@             InflectionOption ;
 adalah@P.POS.n@             InflectionOption ;
-ada@P.POS.n@             InflectionOption ;
 adat@P.POS.n@             InflectionOption ;
 adil@P.POS.n@             InflectionOption ;
 adn@P.POS.n@             InflectionOption ;
@@ -1248,6 +1256,7 @@ computer@P.POS.n@             InflectionOption ;
 contoh@P.POS.n@             InflectionOption ;
 coriander@P.POS.n@             InflectionOption ;
 c@P.POS.n@             InflectionOption ;
+cuaca@P.POS.n@             InflectionOption ;
 cubit@P.POS.n@             InflectionOption ;
 cucunya@P.POS.n@             InflectionOption ;
 cuka@P.POS.n@             InflectionOption ;
@@ -1279,6 +1288,7 @@ debu@P.POS.n@             InflectionOption ;
 dek@P.POS.n@             InflectionOption ;
 delima@P.POS.n@             InflectionOption ;
 dengan@P.POS.n@             InflectionOption ;
+depan@P.POS.n@        InflectionOption ;
 desak@P.POS.n@             InflectionOption ;
 dewan@P.POS.n@             InflectionOption ;
 dewasa@P.POS.n@             InflectionOption ;
@@ -1409,6 +1419,7 @@ haramnya@P.POS.n@             InflectionOption ;
 haram@P.POS.n@             InflectionOption ;
 harap@P.POS.n@             InflectionOption ;
 harga@P.POS.n@             InflectionOption ;
+hari@P.POS.n@             InflectionOption ;
 hartawan@P.POS.n@             InflectionOption ;
 harun@P.POS.n@             InflectionOption ;
 hasil@P.POS.n@             InflectionOption ;
@@ -1576,6 +1587,7 @@ kelopak@P.POS.n@             InflectionOption ;
 keluar@P.POS.n@             InflectionOption ;
 keluh@P.POS.n@             InflectionOption ;
 kemarahan@P.POS.n@             InflectionOption ;
+kemarin@P.POS.n@             InflectionOption ;
 kemas@P.POS.n@             InflectionOption ;
 kemudaratan@P.POS.n@             InflectionOption ;
 kemudian@P.POS.n@             InflectionOption ;
@@ -1689,6 +1701,7 @@ lobak@P.POS.n@             InflectionOption ;
 logam@P.POS.n@             InflectionOption ;
 lontar@P.POS.n@             InflectionOption ;
 l@P.POS.n@             InflectionOption ;
+luar@P.POS.n@        InflectionOption ;
 lubang@P.POS.n@             InflectionOption ;
 luh@P.POS.n@             InflectionOption ;
 lupalah@P.POS.n@             InflectionOption ;
@@ -2057,6 +2070,7 @@ ruang@P.POS.n@             InflectionOption ;
 rujukan@P.POS.n@             InflectionOption ;
 rujuk@P.POS.n@             InflectionOption ;
 rukuk@P.POS.n@             InflectionOption ;
+rumah@P.POS.n@        InflectionOption ;
 rupa@P.POS.n@             InflectionOption ;
 saad@P.POS.n@             InflectionOption ;
 saat@P.POS.n@             InflectionOption ;
@@ -2199,6 +2213,7 @@ tabur@P.POS.n@             InflectionOption ;
 tafsir@P.POS.n@             InflectionOption ;
 tahniah@P.POS.n@             InflectionOption ;
 tahu@P.POS.n@             InflectionOption ;
+tahun@P.POS.n@        InflectionOption ;
 tajuk@P.POS.n@             InflectionOption ;
 takbur@P.POS.n@             InflectionOption ;
 takhta@P.POS.n@             InflectionOption ;
@@ -2396,6 +2411,7 @@ bila@P.POS.question@              InflectionOption ;
 maniknya@P.POS.question@              InflectionOption ;
 mengapa@P.POS.question@              InflectionOption ;
 siapa@P.POS.question@              InflectionOption ;
+mana@P.POS.question@              InflectionOption ;
 
 LEXICON Subordinating
 ajakan@P.POS.cnjsub@          InflectionOption ;
@@ -2419,6 +2435,7 @@ pengadilan@P.POS.cnjsub@          InflectionOption ;
 sebelum@P.POS.cnjsub@          InflectionOption ;
 seolah@P.POS.cnjsub@          InflectionOption ;
 termaklum@P.POS.cnjsub@          InflectionOption ;
+tetapi@P.POS.cnjsub@          InflectionOption ;
 unjuran@P.POS.cnjsub@          InflectionOption ;
 walau@P.POS.cnjsub@          InflectionOption ;
 yang@P.POS.cnjsub@          InflectionOption ;
@@ -2469,7 +2486,6 @@ cabut@P.POS.v@        InflectionOption ;
 cair@P.POS.v@        InflectionOption ;
 campak@P.POS.v@        InflectionOption ;
 campur@P.POS.v@        InflectionOption ;
-cantik@P.POS.v@        InflectionOption ;
 celaka@P.POS.v@        InflectionOption ;
 cela@P.POS.v@        InflectionOption ;
 cermat@P.POS.v@        InflectionOption ;
@@ -2774,5 +2790,20 @@ LEXICON Preposition
 di%<pr%>:di0      # ;
 ke%<pr%>:ke0      # ;
 
+LEXICON pronoun
+saya@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@                 InflectionOption ;
+aku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@                  InflectionOption ;
+anda@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@                 InflectionOption ;
+ia@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@                  branching ;
+kamu@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@                 InflectionOption ;
+kamu@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@:au00@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@      InflectionOption ;
+dia@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@                  InflectionOption ;
+kami@P.POS.prn@@P.PERSON.p1@@P.NUM.pl@                 InflectionOption ;
+kita@P.POS.prn@@P.PERSON.p1@@P.NUM.pl@                 InflectionOption ;
+kalian@P.POS.prn@@P.PERSON.p2@@P.NUM.pl@               InflectionOption ;
+mereka@P.POS.prn@@P.PERSON.p3@@P.NUM.pl@               InflectionOption ;
+beliau@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@               InflectionOption ;
+0aku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@:daku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@      InflectionOption ;
+0kamu@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@:dikau@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@    InflectionOption ;
 
 !!! -- End -- !!!
