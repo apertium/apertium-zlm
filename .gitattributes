@@ -6,15 +6,15 @@
 /NEWS -text
 /README -text
 /apertium-zlm.pc.in -text
-/apertium-zlm.post-zlm.dix -text svneol=unset#application/xml
-/apertium-zlm.zlm.acx -text svneol=unset#application/xml
-/apertium-zlm.zlm.dix -text svneol=unset#application/xml
+/apertium-zlm.post-zlm.dix -text
+/apertium-zlm.zlm.acx -text
+/apertium-zlm.zlm.dix -text
 /apertium-zlm.zlm.rlx -text
 /autogen.sh -text
 /configure.ac -text
-/modes.xml -text svneol=unset#application/xml
+/modes.xml -text
 texts/bahasa_malaysia1.handtagged.darkgaia.txt -text
 texts/bahasa_malaysia1.raw.txt -text
 texts/bahasa_malaysia1.tagged.txt -text
 texts/malaysia1.handtagged.darkgaia.txt -text
-/zlm.prob -text
+/zlm.prob -text svneol=unset#unset
