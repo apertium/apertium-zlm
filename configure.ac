@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Malay], [0.2.0], [apertium-stuff@lists.sourceforge.net], [apertium-zlm], [http://wiki.apertium.org/wiki/Apertium-zlm])
+AC_INIT([Apertium Malay], [0.2.0], [apertium-stuff@lists.sourceforge.net], [apertium-zlm], [https://wiki.apertium.org/wiki/Apertium-zlm])
 AM_INIT_AUTOMAKE
 
 AC_PROG_AWK
