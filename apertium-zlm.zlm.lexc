@@ -254,7 +254,7 @@ LEXICON MainWord
                                                    Interjection ;
                                                    Particle ;
                                                    Preposition ;
-                                                   Exception ;
+                                                   ! Exception ;
 
 
 
@@ -435,10 +435,10 @@ LEXICON Tagging
 %<prn%>@R.POS.prn@:0@R.POS.prn@                               CheckVoice ;
 %<cnjsub%>@R.POS.cnjsub@:0@R.POS.cnjsub@                      CheckVoice ;
 %<cnjcoo%>@R.POS.cnjcoo@:0@R.POS.cnjcoo@                      CheckVoice ;
-%<det%>0@R.POS.det@:0@R.POS.det@                              CheckVoice ;
-%<mod%>0@R.POS.mod@:0@R.POS.mod@                              CheckVoice ;
-%<ij%>0@R.POS.interjection@:0@R.POS.interjection@            CheckVoice ;
-%<qst%>0@R.POS.question@:0@R.POS.question@                    CheckVoice ;
+%<det%>@R.POS.det@:0@R.POS.det@                              CheckVoice ;
+%<mod%>@R.POS.mod@:0@R.POS.mod@                              CheckVoice ;
+%<ij%>@R.POS.interjection@:0@R.POS.interjection@            CheckVoice ;
+%<qst%>@R.POS.question@:0@R.POS.question@                    CheckVoice ;
 
 LEXICON CheckVoice
 %<actv%>@R.VOICE.av@:0@R.VOICE.av@                              CheckAspect ;
@@ -9198,14 +9198,14 @@ oleh%<pr%>:oleh0        # ;
 sesudah%<pr%>:sesudah0        # ;
 untuk%<pr%>:untuk0        # ;
 
-LEXICON pronoun
+LEXICON Pronoun
 0aku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@:daku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@      InflectionOption ;
 0kamu@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@:dikau@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@    InflectionOption ;
 aku@P.POS.prn@@P.PERSON.p1@@P.NUM.sg@                  InflectionOption ;
 anda@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@                 InflectionOption ;
 beliau@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@               InflectionOption ;
 dia@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@                  InflectionOption ;
-ia@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@                  branching ;
+ia@P.POS.prn@@P.PERSON.p3@@P.NUM.sg@                  InflectionOption ;
 kalian@P.POS.prn@@P.PERSON.p2@@P.NUM.pl@               InflectionOption ;
 kami@P.POS.prn@@P.PERSON.p1@@P.NUM.pl@                 InflectionOption ;
 kamu@P.POS.prn@@P.PERSON.p2@@P.NUM.sg@                 InflectionOption ;
