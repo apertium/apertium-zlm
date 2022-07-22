@@ -35,7 +35,7 @@ read regex secondarynet .o. HyphenRulesBiasa ;
 
 define ternarynet
 
-read regex ternarynet .o. Morphrules ;
+read regex ternarynet .o. Morphrules .o. DeEscape ;
 
 save stack apertium-zlm.zlm.foma.bin.gz
 

@@ -59,6 +59,7 @@ define CAP a -> A, b -> B, c -> C, d -> D, e -> E,
 define Exception %^K [k|p|c|t|K|P|C|T] -> 0 || [k|p|c|t|K|P|C|T] _ ,, %^K -> 0 || n g _ [k|K] ,, %^K -> 0 || m _ [p|P] ,, %^K -> 0 || n _ [c|C|t|T] ;
 define Syllable %^M -> 0 || [~[Upper]|~[Lower]] _ ,, %^M -> e || [Upper|Lower]+ _ ;
 define DoubleR r -> 0 || b e _ [lbraces|flgs]* r ,, r -> 0 || p e _ [lbraces|flgs]* r ,, r -> 0 || t e _ [lbraces|flgs]* r ;
+define DeEscape %{r%} -> r || _ ;
 
 
 ! composition rules terakhir

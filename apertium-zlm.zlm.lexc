@@ -10,6 +10,7 @@
 !!! <TAGS>, ^NASAL, and @THE.DIACRITIC.FLAG@
 !!! ----------------------------------------------------------------
 Multichar_Symbols
+         %{r%} ! escape phonology rules
          %<abstract%>           !! Morphological Tags
          %<actio%>
          %<actor%>
@@ -5348,7 +5349,7 @@ media@P.POS.n@        InflectionOption ;
 median@P.POS.n@        InflectionOption ;
 mediator@P.POS.n@        InflectionOption ;
 meditasi@P.POS.n@        InflectionOption ;
-mediterranean@P.POS.n@        InflectionOption ;
+mediterranean@P.POS.n@:mediter%{r%}anean@P.POS.n@        InflectionOption ;
 medium@P.POS.n@        InflectionOption ;
 medusa@P.POS.n@        InflectionOption ;
 megat@P.POS.n@        InflectionOption ;
